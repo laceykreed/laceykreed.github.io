@@ -8,10 +8,17 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ffa500;
+  background-color: #cfbaf0;
   text-align: left;
-/*  min-width: 500px; */
 }
+
+  header {
+  font-family: Work Sans;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+}
+/*  min-width: 500px; */
 
 main {
   display: grid;
@@ -39,7 +46,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #90dbf4;
   padding: 10px 0px 10px 10px;
 }
 
@@ -119,8 +126,8 @@ img {
 }
 
 .description {
-  font-family: 'Playfair Display', serif;;
-  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
@@ -140,6 +147,10 @@ img {
 .container {
 /*  min-width: 500px; */
   margin: auto;
+}
+
+a {
+  color: #cfbaf0;
 }
 
 footer {
